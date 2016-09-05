@@ -1,0 +1,20 @@
+
+<story path="Search.story" title="">
+<narrative keyword="Narrative:">
+<inOrderTo keyword="In order to">test search field functionality</inOrderTo>
+<asA keyword="As a">possible client</asA>
+<iWantTo keyword="I want to">search for sthg on mediagalaxy.ro</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Search bar - bad flow">   
+<step outcome="successful">
+Given I open the page on home screen
+</step>
+<step outcome="successful">
+When I submit field with bad data
+</step>
+<step outcome="successful">
+Then I should see a message for wrong data typed
+</step>
+</scenario> 
+</story>
+

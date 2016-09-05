@@ -1,0 +1,20 @@
+
+<story path="Order.story" title="">
+<narrative keyword="Narrative:">
+<inOrderTo keyword="In order to">test the order functionality</inOrderTo>
+<asA keyword="As a">possible client</asA>
+<iWantTo keyword="I want to">log in first and then order a specific product on mediagalaxy.ro</iWantTo>
+</narrative>
+<scenario keyword="Scenario:" title="Order - happy flow">   
+<step outcome="successful">
+Given Login fields registration
+</step>
+<step outcome="successful">
+When I submit fields with valid data and then I should be loged into my account
+</step>
+<step outcome="successful">
+Then I should be able to order a specific product
+</step>
+</scenar</story>
+ory>
+
